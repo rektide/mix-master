@@ -26,7 +26,6 @@ function MixMaster(o, slot, get, set, src){
 		}
 	}else{
 		var value= underlyingDescriptor && underlyingDescriptor.value || undefined
-		newDesc.writable= true
 		_get= function(){
 			return value
 		}
